@@ -1,0 +1,67 @@
+.therapist-image {
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+.therapist-image figcaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.therapist-image figcaption svg path:first-of-type {
+  fill: $brand-primary;
+}
+.therapist-image img {
+  height: 100%;
+  width: auto;
+  display: block;
+  transition: 0.4s ease-in-out;
+}
+h3.therapist-name {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 0.8rem;
+  padding: 10px;
+  margin: 0;
+  transition: 0.4s ease-in-out;
+}
+.therapist-name small {
+  font-size: 0.7rem;
+  margin-left: 4px;
+}
+p.next-work-day {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  line-height: 0.8rem;
+  background-color: $brand-secondary;
+  padding: 10px;
+  margin: 0;
+}
+.therapist {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.therapist a {
+  color: $nav-link-color;
+}
+.therapist a:hover figure img {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.therapist a:hover h3.therapist-name {
+  color: $nav-link-hover;
+}
+@media (min-width: 768px) {
+  h3.therapist-name,
+  p.next-work-day {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .therapist-name small {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,26 @@
+.content-container {
+  background-color: $container-background;
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+@media (min-width: 576px) {
+  .content-container {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+  }
+}
+@media (min-width: 992px) {
+  .content-container {
+    background-color: $container-background;
+    padding: 30px 20px;
+    margin: 0 auto;
+  }
+}
+
+#app {
+  padding-top: 115px;
+}
+@media (min-width: 992px) {
+  #app {
+    padding-top: 0px;
+  }
+}

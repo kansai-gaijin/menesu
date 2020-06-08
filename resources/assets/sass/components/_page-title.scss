@@ -1,0 +1,33 @@
+h1.page-title {
+  background-color: $brand-secondary;
+  border-radius: 10px;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  padding: 15px 15px 15px 25px;
+  margin-bottom: 30px;
+}
+h1.page-title figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  transform: translate(-25%, -25%);
+}
+h1.page-title figure svg {
+  display: block;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  h1.page-title {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.15em;
+    padding: 18px 18px 18px 35px;
+  }
+  h1.page-title figure {
+    width: 46px;
+  }
+}

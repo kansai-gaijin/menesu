@@ -1,0 +1,14 @@
+.side-banner{
+  margin-bottom:10px;
+}
+.side-banner:last-of-type{
+  margin-bottom:0;
+}
+.side-banner a{
+  display:block;
+  width:100%;
+  text-align:center;
+  &:hover{
+    opacity:0.6;
+  }
+}

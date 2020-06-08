@@ -1,0 +1,14 @@
+.outside-banner{
+  margin-bottom:10px;
+}
+.outside-banner:last-of-type{
+  margin-bottom:0;
+}
+.outside-banner a{
+  display:block;
+  width:100%;
+  text-align:center;
+  &:hover{
+    opacity:0.6;
+  }
+}

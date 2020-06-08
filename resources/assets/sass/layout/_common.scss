@@ -1,0 +1,16 @@
+ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+a:hover{
+  text-decoration: none;
+  transition:all 0.3s ease-in-out;
+}
+img{
+  max-width:100%;
+}
+body{
+  font-weight:500;
+  color:$brand-text-light;
+}
